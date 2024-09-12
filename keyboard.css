@@ -1,0 +1,49 @@
+.keyboard {
+    max-width: 100%;
+    margin-top: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(5, fr);
+    column-gap: 5px;
+    row-gap: 5px;
+    font-size: 30px;
+    font-weight: 500;
+    
+
+    .key {
+        background-color: #1a202c;
+            height: 70px;
+            width: 70px;
+            border: 0;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            
+            
+            
+    }
+
+    .lygu {
+        grid-column: span 2;
+        width: 140px;
+        border-radius: 30px;
+        font-weight: 700;
+        
+    }
+
+    .sviesi {
+        background: #8ca9d5; 
+        color: #262429;
+    }
+
+    .tamsi {
+        background: #081933;
+        color: #bfbccf;
+    }
+
+    .shadow {
+        box-shadow: inset 3px 3px 10px 2px #29303a;
+    }
+}

@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #323e4e;
+    color: #d2cee5;
+    margin-top: 20px;
+    font-family: sans-serif;
+    
+}
+
+.container {
+    width: 300px;
+    background-color: black;
+    margin: 0 auto;
+    border: 0;
+    border-radius: 30px;
+    padding: 15px 15px;
+    
+
+    .upper-btns {
+        position: relative;
+        height: 100px;
+
+        img {
+            width: 25px;
+            height: auto;
+        }
+    
+        /*    vietoj left-btn turi buti slide button   */
+
+        .left-btn {
+            background-color: #1a202c;
+            width: 70px;
+            height: 40px;
+            /* margin: 0 auto; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 0;
+            border-radius: 15px;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+        }
+    
+        .right-btn {
+            background-color: #1a202c;
+            width: 70px;
+            height: 40px;
+            /* margin: 0 auto; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 0;
+            border-radius: 15px;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            box-shadow: inset 5px 5px 5px -2px #29303a;
+        }
+    }
+
+   
+
+    .screen {
+        position: relative;
+        height: 130px;
+
+        .last-action {
+            color: #cfcce1;
+            padding-top: 20px;
+            position: absolute;
+            top: 0;
+            right: 0;
+            
+        }
+
+        .equal {
+            position: absolute;
+            left: 0;
+            bottom: 13px;
+            font-size: 40px;
+            font-weight: 700;
+            color: #7a7989;
+        }
+
+        .answer {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            font-size: 55px;
+        }
+    }
+
+   
+
+        
+
+}
+
